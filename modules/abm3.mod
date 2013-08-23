@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  Пт 23 авг 2013 09:29:44
+# encoding utf-8
+Units mm
+$INDEX
+ABM3
+$EndINDEX
+$MODULE ABM3
+Po 0 0 0 15 5216C90E 00000000 ~~
+Li ABM3
+Sc 0
+AR ABM3
+Op 0 0 0
+T0 0 2.54 1.27 1.27 0 0.2 N V 21 N "ABM3"
+T1 0 -2.54 1.27 1.27 0 0.2 N V 21 N "VAL**"
+DS -2.5 1.5 -2.5 -1.5 0.2 21
+DS -2.5 -1.5 2.5 -1.5 0.2 21
+DS 2.5 -1.5 2.5 1.5 0.2 21
+DS 2.5 1.5 -2.5 1.5 0.2 21
+$PAD
+Sh "1" R 1.9 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "2" R 1.9 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0
+$EndPAD
+$SHAPE3D
+Na "abm3/abm3.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE ABM3
+$EndLIBRARY

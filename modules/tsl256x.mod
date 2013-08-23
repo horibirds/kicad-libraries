@@ -1,0 +1,70 @@
+PCBNEW-LibModule-V1  Пт 23 авг 2013 10:27:44
+# encoding utf-8
+Units mm
+$INDEX
+TSL256x
+$EndINDEX
+$MODULE TSL256x
+Po 0 0 0 15 5216D6A6 00000000 ~~
+Li TSL256x
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 1.27 1.27 0 0.2 N V 21 N "TSL256x"
+T1 0 -2.54 1.27 1.27 0 0.2 N V 21 N "VAL**"
+DS 1.3 1.3 1.3 -1.3 0.2 21
+DS -1.3 1.3 -1.3 -1.3 0.2 21
+DS -1.9 1.3 -1.9 -1.3 0.2 21
+DS -1.9 -1.3 1.9 -1.3 0.2 21
+DS 1.9 -1.3 1.9 1.3 0.2 21
+DS 1.9 1.3 -1.9 1.3 0.2 21
+$PAD
+Sh "3" R 1.1 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.5 0.95
+$EndPAD
+$PAD
+Sh "2" R 1.1 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.5 0
+$EndPAD
+$PAD
+Sh "1" R 1.1 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.5 -0.95
+$EndPAD
+$PAD
+Sh "6" R 1.1 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 -0.95
+$EndPAD
+$PAD
+Sh "5" R 1.1 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 0
+$EndPAD
+$PAD
+Sh "4" R 1.1 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 0.95
+$EndPAD
+$SHAPE3D
+Na "tsl256x/tsl256x.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE TSL256x
+$EndLIBRARY

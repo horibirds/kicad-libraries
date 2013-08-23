@@ -1,0 +1,142 @@
+PCBNEW-LibModule-V1  Пт 23 авг 2013 09:34:33
+# encoding utf-8
+Units mm
+$INDEX
+HP03M
+HP03S
+$EndINDEX
+$MODULE HP03M
+Po 0 0 0 15 5216CA01 00000000 ~~
+Li HP03M
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.445 1.27 1.27 0 0.2 N V 21 N "HP03M"
+T1 0 -4.445 1.27 1.27 0 0.2 N V 21 N "VAL**"
+DC 0 0 2.5 0 0.2 21
+DC 0 0 3 0 0.2 21
+DS -3.45 3.15 -3.45 -3.15 0.2 21
+DS -3.45 -3.15 3.45 -3.15 0.2 21
+DS 3.45 -3.15 3.45 3.15 0.2 21
+DS 3.45 3.15 -3.45 3.15 0.2 21
+$PAD
+Sh "1" R 2 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -1.9
+$EndPAD
+$PAD
+Sh "2" R 2 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "3" R 2 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 1.9
+$EndPAD
+$PAD
+Sh "4" R 2 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 1.9
+$EndPAD
+$PAD
+Sh "5" R 2 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "6" R 2 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -1.9
+$EndPAD
+$EndMODULE HP03M
+$MODULE HP03S
+Po 0 0 0 15 5216CA26 00000000 ~~
+Li HP03S
+Sc 0
+AR HP03S
+Op 0 0 0
+T0 0 10.795 1.27 1.27 0 0.2 N V 21 N "HP03S"
+T1 0 -1.905 1.27 1.27 0 0.2 N V 21 N "VAL**"
+DC 0 5.5 3 5.5 0.2 21
+DC 0 5.5 -3.55 5.5 0.2 21
+DS -4.5 9.5 -4.5 0 0.2 21
+DS -4.5 0 4.5 0 0.2 21
+DS 4.5 0 4.5 9.5 0.2 21
+DS 4.5 9.5 -4.5 9.5 0.2 21
+$PAD
+Sh "4" R 0.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 0
+$EndPAD
+$PAD
+Sh "5" R 0.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 0
+$EndPAD
+$PAD
+Sh "3" R 0.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 0
+$EndPAD
+$PAD
+Sh "6" R 0.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 0
+$EndPAD
+$PAD
+Sh "2" R 0.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 0
+$EndPAD
+$PAD
+Sh "1" R 0.8 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 0
+$EndPAD
+$PAD
+Sh "" R 0.8 1.6 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.5 7.9
+$EndPAD
+$PAD
+Sh "" R 0.8 1.6 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.5 7.9
+$EndPAD
+$SHAPE3D
+Na "hp03/hp03s.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE HP03S
+$EndLIBRARY
